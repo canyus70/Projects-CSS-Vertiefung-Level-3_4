@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+} */
+
+
+header nav {
+    text-align: right;
+    background-color: tomato;
+    padding: 20px 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gold;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+header nav img {
+    width: 50px;
+    /* visibility: hidden;  ==> hier wird es nicht sichtbar, aber nimmst trotzdem den platz ein*/
+
+    /* verschwindet komplett aus dem fluss der Website */
+    display: none;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: dodgerblue;
+    padding: 10vh 3%;
+}
+
+main section p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+footer nav {
+    text-align: center;
+    padding: 20px 0;
+    background-color: greenyellow;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer nav img {
+    width: 50px;
+    display: none;
+}
+
+
+

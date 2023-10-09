@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+    /* im diesem klammerblock, kommen nur die Änderungen rein. Alle eigenschaften die sich nicht ändern sollten, müssen nicht nochmal geschrieben werden */
+    header nav {
+        background-color: pink;
+    }
+    header nav a {
+        display: none;
+    }
+
+    header nav img {
+        display: inline-block;
+    }
+
+    main section {
+        flex-direction: column;
+    }
+
+    footer nav a {
+        display: block;
+        margin: 10px;
+    }
+}

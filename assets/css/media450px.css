@@ -1,0 +1,24 @@
+@media screen and (max-width: 450px) {
+    /* im diesem klammerblock, kommen nur die Änderungen rein. Alle eigenschaften die sich nicht ändern sollten, müssen nicht nochmal geschrieben werden */
+
+
+
+    footer nav img {
+        display: inline-block;
+    }
+
+    footer nav {
+        text-align: right;
+        padding: 20px 10px;
+    }
+    footer nav a {
+        display: none;
+    }
+    main section p {
+        font-size: 1rem;
+    }
+    main section img {
+        width: 80%;
+
+    }
+}
